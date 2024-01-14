@@ -1,0 +1,50 @@
+---
+title: "Previous Thesis Report Write-up"
+author: "Tyler Castriotta"
+date: "2024-01-14"
+output: 
+    html_document:
+        theme: journal
+    pdf_document:
+        latex_engine: xelatex
+knit: (function(inputFile, encoding) {
+ rmarkdown::render(inputFile, encoding = encoding, 
+ output_format = 'all') 
+ })
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#### Thesis I Chose
+
+Ilina Logani - Collective Bargaining and Faculty Composition in Public School Districts: Evidence from California
+
+#### Question 1
+
+Research Question: "Whether differences in union collective baragining demands are associated with differences in the share of non-White teachers in the district."
+
+#### Question 2
+
+One argument that the writer made compelling was citing article 14's (Kisida 2018) findings that when a teacher's culture matches with their students, communication between teacher and student s well as student's college aspiration levels increase. Connecting that with the articles stating that reports of "perceived misbehavior and disproportionate suspensions and expulsions" gives the writer credibility to make the claim that classroom dynamics play a part in socioeconomic inequalities. Thus, we the readers want to know why there is an inefficient number of teachers of color, which the writer states could be the cause of the write-up of the CBA agreement that the author states holds all the rules.
+
+#### Question 3
+
+The contribution that the thesis provides relative to what is previously known by "add[ing] to the limited collection of studies that have performed content analyses of collective bargaining to isolate the the mechanisms by which unionization impacts school outcomes" and looking at the relationship between faculty demographics and CBA demands, rather than numrerical student outcome variables.
+
+#### Question 4
+
+The data sources the author uses for the attainment of faculty demographics and student achievement are from: the California Department of Education (CDE), California Longitudinal Pupil Achievement Data System (CALPADS), and California Basic Educational Data System (CBEDS). The CBA data was collected by Ilina, themselves, and merged with the student and facutly demogrpaphic from the sources above.
+
+#### Question 5
+
+The methodology of this paper is quite sophisticated. First, Ilina creates a word cloud to ensure the words that are in her data set match expectations of what other studies have in their CBA data. Then, they set up five parameters of school district policy: 1. discipline of teachers, defined as penalization of teachers short of termination for occupational misconduct, 2. prioritization of teacher seniority, defined as the awarding of special rights and privileges (such as class choice and promotion consideration) to faculty with the longest tenure at the school, 3. rules related to teacher transfer rights and choice of school assignment, 4. procedures related to evaluation of teacher quality, and 5. emphasis on equity and diversity. With the CBA data shes textmines key words and creates variables for those words correlating to which of the five policies they have stated before hand. The name for this is observables or index formation. In addition, they use an OLS multivariate models to observe the association between the indicator union policy emphasis and share of non-white faculty in the district. Some concerns about the author's methods have already been addressed by the author, which were: possibly inaccuracy from her index formatting, possible omitted variable bias in the equation, and inability to "trace the movement between teachers districts from one year to the next. Reading through the methodology, I would agree with Ilina that the presence of an omiited variable bias is small and I think that her index formatting looks stout, but there is possibility that the third concern could affect results.
+
+#### Question 6
+
+The key results are that only one of the five parameters laid out had significant results (discipline index). Ilina finds that in a district with fewer white faculty members, the CBA focuses increasingly on disciplinary boundaries for teachers. However, they are unable to find a statistically significant causal effect of faculty demographic characteristics on union emphasis, which is attributed to omitted variable bias. One additional result that is interesting is that in a district where the share of Black faculty or Hispanic faculty, the coefficient decreases, there is a relationship of Ilina's specification. The subsetting of the model adds an interesting caveat that there are results to show that match Ilina's hypothesis even if the statistical significance is at a lower level. All-in-all, the paper shows that CBA's are a contributing factor why there is an inefficient level of non-white faculty members, although there was signiificant relationship between policy emphasis and faculty demographics.
+
+#### Question 7
+
+The next thing I would encourage the author to do is to change the state and see if their result could be statistically significant when the state observwd is changed. 
