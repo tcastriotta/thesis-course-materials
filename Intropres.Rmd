@@ -1,0 +1,28 @@
+---
+title: "Sports Betting Thesis Pitch"
+author: "Tyler Castriotta"
+date: "January 22, 2024"
+output: 
+  beamer_presentation: default
+  ioslides_presentation: default
+pdf: TylerCastriotta_RegExpressions
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Research Question
+
+- How does the legalization of sports betting effect state economies?
+- I want to see where the proposed increase tax revenue that sports betting brings in goes to
+- Education? Public works? Does it even create a significant increase in tax revenue?
+
+## Major Literature 
+- "Sports Betting: Why the United States Should Go All In" - Andrew Vacca
+- "An Overview of the Economics of Sports Gambling and an Introduction to the Symposium" - Victor Matheson 
+- "Bet You Didn't Know She Could Get Paid for That: Using Sports Betting and the Right of Publicity to Address the Gender Wage Gap in Professional Sports" - Torrey M. Feldman
+
+## Data and Expected Results
+- State-reported tax revenue from sports gambling, previous surveys done 
+- Expected Results: Revenue of sports betting will increase tax revenue and thus increase state's budgets
