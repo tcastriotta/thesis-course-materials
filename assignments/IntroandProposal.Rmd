@@ -1,0 +1,43 @@
+---
+title: "Is the House the Only Winner? How Sports Betting Can Improve Local Communities"
+author: "Tyler Castriotta"
+date: "2024-1-29"
+output: 
+    html_document:
+        theme: journal
+    pdf_document:
+        latex_engine: xelatex
+urlcolor: blue
+knit: (function(inputFile, encoding) {
+ rmarkdown::render(inputFile, encoding = encoding, 
+ output_format = 'all') 
+ })
+bibliography: references.bib
+---
+
+#### Introduction
+<br>
+There has been a long standing phrase that the house always wins. To corroborate that story, the Wall Street Journal did a study where they observed the performance of 4,222 gamblers. The result was that only 13.5% of bettors made a profit and that 217 people lost more than \$5000, while only 7 won more than that [@MaremontBerzon2013]. And if you strictly look at sports bettors, the outlook is much more grim. According to the website ElitePickz, only 3% of sports bettors are profitable [@Harrelson2024]. The former is definitely a stark number, especially when you contemplate exactly how much the other 97% might have lost altogether. Or you could spin it the other way and think about how much taxes on winnings the casinos and sports books are paying to their state. In fact, the main argument for legalizing sports betting, as well as why this topic is so important, was the amount of tax revenue that states would earn, which would go towards funding education, public works, and youth sports. Since the opening of mobile sports betting, the state of New York has generated \$1B that will go  directly towards education funding [@AddabboJr2023]. Why does this matter? Well, there has been many studies done that show a correlation between an increase in education funding and student achievement. One study in particular, done by Daniel Kreisman and Matthew P. Steinberg for the Journal of Public Economics. The article looks at how an increase in funding improves student achievement in the form of reading and math scores. With an increase in \$1000, reading and math scores increase by .1 sd and .08 sd, respectively on average [@KreismanSteinberg2019]. Because sports betting improves funding for public goods and due to government policy, this is rooted in public economics. 
+
+#### Research Question
+<br>
+The research question that I will focus on in this paper is, <b>how does the legalization of sports betting affect state budgets?</b> I hypothesize that the legalization of sports betting will significantly increase a state's budget. If this hypothesis is true, it gives even more reason for states that have not legalized sports betting to do so.
+
+#### Proposal of Research
+<br>
+I will be looking at how sports betting affects state budgets. On intuition alone, I believe that sports betting will have a significant impact at increasing a state budget, and therefore provide adequate funds to support public goods within a community, possibly even targeting communities that are typically underfunded or a district where there school system is under performing (this can be based on metrics such as: low standardized test scores, below average graduation rate, or higher than average drop out rate). 
+<br>
+There a couple things that may influence the results of this paper. One is that the lack of popularity in sports may translate to a smaller increase in state budgets, or even be crowded out by state lotteries that are easier for people to enter/understand than sports betting may be, especially if they do not know the rules of a given sport. I fear that this could be the case in states where there are no professional sports teams, a small number of professional sports, or a lack of popularity in their collegiate sports teams. Examples would be Montana or New Mexico, where there are no professional sports teams and lower popularity in there collegiate sports teams. It is important to look at these states, along with states that have an incredibly popular sports culture, to see if the legalization of sports betting contributes to the state budget.
+<br>
+Another factor that could influence the results of this paper is that sports betting will act as a substitute, rather than a compliment, to state lotteries. If this is the case, the increase in budget could be relatively small, if there is an increase at all. This could be present in states with a vibrant sports culture. If this is the case, the legalization of sports betting could simply be a net-negative(gives another way to problem gambling, addiction, loss of significant money).
+
+
+#### Value Added
+<br>
+1. Newer economic phenomenon
+2. 
+3.
+
+
+#### Bibliogrpahy
+<br>

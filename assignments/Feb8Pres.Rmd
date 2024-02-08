@@ -1,0 +1,53 @@
+---
+title: "Sports Betting Thesis"
+author: "Tyler Castriotta"
+date: "Febuary 8, 2024"
+output: 
+  beamer_presentation: default
+  ioslides_presentation: default
+pdf: TylerCastriotta_RegExpressions
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Research Question
+
+- Does the density of casinos in a state impact its sports betting revenue?
+- Question of elasticity - in-person and online bets are usually taxed differently
+  - For example, New Jersey has a 13% tax rate on online betting, but a 8.5% tax on in-person         betting at casinos
+
+
+## Major Literature 
+
+- "Legalized Sports Betting in the United States and Potential Impacts in Massachusetts" - SEIGMA
+- "Legalized Sports Betting, VLT Gambling, and State Gambling Revenues: Evidence from West Virginia" - BR Humphreys
+- "Taxation and the Demand for Gambling: New Evidence from the United Kingdom" - David Paton et al.
+
+## Data
+
+- Motley Fool
+  - Total tax revenue from sports betting by state
+- Online Betting USA
+  - Sports betting taxes for each state
+- World Population Review
+  - Casinos per capita for each state
+-NerdWallet
+  - Income Taxes for each state
+- "Sports Betting Consumer Study" - AGA
+  - Examines sports betting behavior, demographics, links to problem gambling
+
+
+## Methodology
+
+- Regression Model 
+  - Does a higher casino per capita increase tax revenue?
+
+
+## Expected Results
+- Lower casino per capita will increase tax revenues
+  - Less access to casino games (substitutes) lead to higher usage of mobile sports betting
+  - States will capture more revenue from the increased tax 
+- Might be different between demographics
+  - Lesser access to transportation, more online betting
