@@ -41,8 +41,10 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Methodology
 
-- Regression Model 
-  - Does a higher casino per capita increase tax revenue?
+- Linear Regression Model 
+  - Tax revenue - dependent variable, casino per capita - independent variable
+- Challenges How will I account for the different tax rates (both income and sports-betting specific)
+  -Admittedly not sure how to do that
 
 
 ## Expected Results
